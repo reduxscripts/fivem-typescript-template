@@ -1,0 +1,43 @@
+{
+  "name": "typescript-template",
+  "version": "2.1.2",
+  "description": "Typescript template 5M",
+  "main": "index.js",
+  "author": "Redux",
+  "scripts": {
+    "build": "webpack --mode production",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "watch": "webpack --mode development --watch true",
+    "terser": "terser dist/**/*.js --output dist/min --compress --mangle"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@citizenfx/client": "^2.0.6947-1",
+    "@citizenfx/server": "^2.0.6947-1",
+    "@overextended/ox_lib": "^3.16.2",
+    "@types/node": "^14.14.41",
+    "fivem-mysql-async-js": "^0.1.2",
+    "javascript-obfuscator": "^4.1.1",
+    "lua": "^0.0.1",
+    "process": "^0.11.10",
+    "uglify-js": "^3.17.4",
+    "uglifyjs": "^2.4.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-loader": "^4.0.2",
+    "prettier": "^2.8.8",
+    "remove-files-webpack-plugin": "^1.4.3",
+    "terser": "^5.27.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-obfuscator": "^3.5.1"
+  }
+}

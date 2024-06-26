@@ -17,7 +17,7 @@
     "@citizenfx/client": "^2.0.6947-1",
     "@citizenfx/server": "^2.0.6947-1",
     "@overextended/ox_lib": "^3.16.2",
-    "@types/node": "^14.14.41",
+    "@types/node": "^20.14.9",
     "fivem-mysql-async-js": "^0.1.2",
     "javascript-obfuscator": "^4.1.1",
     "lua": "^0.0.1",

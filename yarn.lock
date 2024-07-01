@@ -156,10 +156,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@overextended/ox_lib@^3.16.2":
-  version "3.22.2"
-  resolved "https://registry.yarnpkg.com/@overextended/ox_lib/-/ox_lib-3.22.2.tgz#b69efdfcb91fdf188ceff493b5860f96328ef083"
-  integrity sha512-DApBDrsHYlyiFpDG83d0AdzjerzHpGvo5ECraPcW5vNDlaiJ9O8SnIHwcxv2EzE+E4oUhZ2Nng5f0DcfPFb3UQ==
+"@overextended/ox_lib@^3.23.0":
+  version "3.23.0"
+  resolved "https://registry.yarnpkg.com/@overextended/ox_lib/-/ox_lib-3.23.0.tgz#11dcb625883452dcd5e0d63e63ebff9f44f0b0ac"
+  integrity sha512-liRzKyZEvW9p7YdBnduYx4USgkaFD1SgzAl7QPUEitlu1K4cwiRHQ4mWJt1O0hEGYIFpCTfdTlYsNr+koYdCQg==
   dependencies:
     "@nativewrappers/client" "^1.7.33"
     csstype "^3.1.3"
